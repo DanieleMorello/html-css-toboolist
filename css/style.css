@@ -18,8 +18,16 @@ body {
   margin-top: 2px;
 }
 
+.mt3 {
+  margin-top: 3rem;
+}
+
 .ml1 {
   margin-left: 1rem;
+}
+
+.mb3 {
+  margin-bottom: 3rem;
 }
 
 .p1 {
@@ -60,14 +68,18 @@ button {
   margin-left: 4px;
 }
 
+ul {
+  list-style: none;
+}
+
 .btn {
   color: #fff;
   border-radius: 23px;
-    padding: 6px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: center;
-    font-size: 12px;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  font-size: 12px;
 }
 
 .btn-disabled {
