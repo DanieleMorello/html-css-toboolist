@@ -44,6 +44,11 @@ body {
   line-height: 100px;
 }
 
+.circle {
+  border: 2px solid #5BBCA4;
+  border-radius: 50%;
+}
+
 strong {
   font-size: 4rem;
 }
@@ -105,3 +110,4 @@ main {
 #app-footer {
   text-align: center;
 }
+
