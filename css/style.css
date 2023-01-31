@@ -5,16 +5,52 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #F6F8F9;
+}
+
 /* Utilites */
-.mt1{
-  margin-top: 1rem;
+.mt2{
+  margin-top: 2px;
 }
 
 .ml1 {
   margin-left: 1rem;
 }
 
-figure {
-  /* line-height: center; */
-  vertical-align: middle;
+p1 {
+  padding: 1rem;
 }
+
+.bg-color {
+  background-color: #F6F8F9;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.active {
+  background-color: #47ADF1;
+  color: #fff;
+}
+
+.text-center {
+  height: 100px;
+  line-height: 100px;
+}
+
+strong {
+  font-size: 4rem;
+}
+
+button {
+  border-radius: 5px;
+  padding: .8rem;
+  border: none;
+}
+
+main {
+  margin: 2rem 15%;
+}
+
