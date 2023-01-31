@@ -1,0 +1,20 @@
+/* CSS  RESEt */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utilites */
+.mt1{
+  margin-top: 1rem;
+}
+
+.ml1 {
+  margin-left: 1rem;
+}
+
+figure {
+  /* line-height: center; */
+  vertical-align: middle;
+}
