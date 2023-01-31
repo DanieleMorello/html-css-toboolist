@@ -10,6 +10,10 @@ body {
 }
 
 /* Utilites */
+.mt1 {
+  margin-top: 1rem;
+}
+
 .mt2{
   margin-top: 2px;
 }
@@ -18,7 +22,7 @@ body {
   margin-left: 1rem;
 }
 
-p1 {
+.p1 {
   padding: 1rem;
 }
 
@@ -48,9 +52,51 @@ button {
   border-radius: 5px;
   padding: .8rem;
   border: none;
+  margin-left: 4px;
+}
+
+.btn {
+  color: #fff;
+  border-radius: 23px;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.btn-disabled {
+  border: 2px solid #CED3D7;
+}
+
+.edit-btn {
+    background-color: #45ABEA;
+}
+
+.goals-btn {
+  background-color: #9C72E4;
 }
 
 main {
   margin: 2rem 15%;
 }
 
+.pad-main {
+  padding: 1rem 5rem;
+}
+
+.recruit-btn {
+  background-color: #64C0A9;
+}
+
+.mobile-btn {
+  background-color: #F29E33;
+}
+
+.web-btn {
+  background-color: #D863A1;
+}
+
+.sales-btn {
+  background-color: #B0C926;
+}
