@@ -1,3 +1,4 @@
+/* #region Common */
 /* CSS  RESET */
 * {
   margin: 0;
@@ -9,7 +10,20 @@ body {
   background-color: #f6f8f9;
 }
 
-/* UTILITIES */
+strong {
+  font-size: 4rem;
+}
+
+main {
+  margin: 2rem 15%;
+}
+
+ul {
+  list-style: none;
+}
+/* #endregion Common */
+
+/* #region Utilities */
 .mt_1 {
   margin-top: 1rem;
 }
@@ -58,25 +72,14 @@ body {
 .text_center {
   text-align: center;
 }
+/* #endregion Utilities */
 
-.circle {
-  border: 2px solid #5bbca4;
-  border-radius: 50%;
-}
-
-strong {
-  font-size: 4rem;
-}
-
+/* #region button */
 button {
   border-radius: 5px;
   padding: 0.8rem;
   border: none;
   margin-left: 4px;
-}
-
-ul {
-  list-style: none;
 }
 
 .btn {
@@ -101,10 +104,6 @@ ul {
   background-color: #9c72e4;
 }
 
-main {
-  margin: 2rem 15%;
-}
-
 .recruit_btn {
   background-color: #64c0a9;
 }
@@ -120,3 +119,4 @@ main {
 .sales_btn {
   background-color: #b0c926;
 }
+/* #endregion button */
